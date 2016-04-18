@@ -1,5 +1,4 @@
-class Inventory
-end
+
 def inventory (icecream)
   icecream.each do |k,v|
     puts "#{k}: #{v}"
@@ -15,7 +14,7 @@ loop_options = true
 puts "Welcome to Jessica and Sophie's Ice Cream Inventory App! Here are our current inventory numbers:"
 sleep (1)
 
-puts inventory(icecream)
+inventory(icecream)
 
 
 # icecream.each do |k,v|
@@ -38,7 +37,7 @@ while loop_upon_completion == true do
     if answer == "1"
       #this will dispay inventory for user to see
       puts "The current inventory numbers are:"
-      puts inventory (icecream)
+       inventory (icecream)
       # icecream.each do |k,v|
       #   puts "#{k}: #{v}"
       # end
